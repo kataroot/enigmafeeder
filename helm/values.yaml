@@ -1,0 +1,8 @@
+livenessProbe:
+  httpGet:
+    path: /actuator/health/liveness
+    port: http
+readinessProbe:
+  httpGet:
+    path: /actuator/health/readiness
+    port: http

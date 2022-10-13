@@ -1,0 +1,8 @@
+apiVersion: v2
+description: A random number generator to feed Enigma
+name: enigmafeeder
+version: 1.0.0
+keywords:
+  - Microservice
+  - Kubernetes
+  - SpringBoot
