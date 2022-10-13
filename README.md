@@ -151,13 +151,13 @@ Once the build phase has been done, you can use Helm to install the application 
 ### Non-production environment
 
 ```bash
-  helm upgrade enigmafeeder --install -f helm/values-nonproduction.yaml helm
+helm upgrade enigmafeeder --install -f helm/values-nonproduction.yaml helm
 ```
 
 ### Production environment
 
 ```bash
-  helm upgrade enigmafeeder --install -f helm/values-production.yaml helm
+helm upgrade enigmafeeder --install -f helm/values-production.yaml helm
 ```
 
 ## Usage/Examples
