@@ -23,7 +23,7 @@ It is also necessary to have access to a Kubernetes cluster.
 
 The build process runs completely inside a container. This way, the process is isolated and less prone to errors.
 
-This is the first Spring Boot application I develop, so this part could certainly be. The tests are not as detailed as I would like it to be, and the exception handling should be more fine-grained. 
+This is the first Spring Boot application I develop, so this part could certainly be improved. The tests are not as detailed as I would like it to be, and the exception handling should be more fine-grained. 
 
 About the Kubernetes deployment and the use of the default namespace, I could have created a new namespace and a service account with Helm, but these are resources that should be created by the Kubernetes administration team. 
 
